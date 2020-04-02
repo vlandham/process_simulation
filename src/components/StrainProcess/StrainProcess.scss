@@ -1,0 +1,36 @@
+.StrainProcess {
+  font-family: 'Helvetica Neue', 'Fira Sans', sans-serif;
+  position: relative;
+
+  .label {
+    font-weight: 500;
+  }
+
+  .metric,
+  .key {
+    font-weight: 300;
+  }
+
+  .chart-side {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .chart-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .axis-label {
+    font-weight: bold;
+    font-size: 11px;
+  }
+
+  .chart {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
